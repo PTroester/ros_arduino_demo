@@ -5,7 +5,7 @@ from ros_arduino_msgs.srv import *
 from sensor_msgs.msg import Range
 
 changeLed = rospy.ServiceProxy('/arduino/analog_write', AnalogWrite) 
-#chages led brightness
+#changes led brightness
 
 pin = 6 #Pin for LED
 dist = 0 #distance
